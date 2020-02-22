@@ -91,7 +91,7 @@ namespace Flare_Sharp.UI
             this.AutoScaleMode = AutoScaleMode.None;
             ui = this;
             this.TopMost = true;
-            Console.WriteLine("Starting Tab GUI...");
+            Console.WriteLine("Starting TabGUI.");
             this.FormBorderStyle = FormBorderStyle.None;
             this.TransparencyKey = Color.FromArgb(77, 77, 77);
             this.BackColor = this.TransparencyKey;
