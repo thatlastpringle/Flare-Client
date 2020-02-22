@@ -118,7 +118,7 @@ namespace Flare_Sharp.UI
                 }
             };
             rainbowTimer.Interval = 10;
-            rainbowTimer.Start();
+            rainbowTimer.Stop();
             if (postOverlayLoad != null)
             {
                 postOverlayLoad.Invoke(this, new EventArgs());
@@ -128,7 +128,7 @@ namespace Flare_Sharp.UI
 
         private void OverlayHost_Paint(object sender, PaintEventArgs e)
         {
-            e.Graphics.DrawString("Flare "+Program.version, font, primary, width - (font.Size * Program.version.Length * (float)1.4), height - font.Height);
+            e.Graphics.DrawString("Xri "+Program.version, font, primary, width - (font.Size * Program.version.Length * (float)1.4), height - font.Height);
         }
 
         public IntPtr OnMouseMove(int nCode, IntPtr wParam, IntPtr lParam)
