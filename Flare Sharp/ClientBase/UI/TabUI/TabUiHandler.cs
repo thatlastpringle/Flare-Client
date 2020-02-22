@@ -57,7 +57,7 @@ namespace Flare_Sharp.UI.TabUI
             graphics.FillRectangle(OverlayHost.ui.secondary, 0, 0, catWidth * scale, ((32 * scale) * CategoryHandler.registry.categories.Count) + tFontSize);
 
             //graphics.FillRectangle(OverlayHost.ui.secondary, 0, 0, catWidth * scale, 32 * scale);
-            graphics.DrawString("Flare", titleFont, OverlayHost.ui.rainbow, -13, 0);
+            graphics.DrawString("Xri", titleFont, OverlayHost.ui.rainbow, -13, 0);
             uint c = 0;
             foreach (Category category in CategoryHandler.registry.categories)
             {
