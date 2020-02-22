@@ -21,16 +21,17 @@ namespace Flare_Sharp
 {
     class Program
     {
-        public static string version = "0.0.6.3";
+        public static string version = "0.0.0.2";
         public static int threadSleep = 1;
         public static EventHandler<EventArgs> mainLoop;
         static void Main(string[] args)
         {
             //Dont.Be.A.Scumbag.And.Remove.This.Warn.warn();
-            Console.WriteLine("Flare# Client");
+            Console.WriteLine("Xri Client");
             Console.WriteLine("Flare port to C#");
-            Console.WriteLine("Discord: https://discord.gg/Hz3Dxg8");
-
+            Console.WriteLine("Xri port to C#");
+            Console.WriteLine("Discord: https://discord.gg/t8pp4Vm");
+            
             Process.Start("minecraft://");
 
             try
@@ -71,7 +72,7 @@ namespace Flare_Sharp
             {
                 Console.WriteLine("Message: " + ex.Message);
                 Console.WriteLine("Stacktrace: " + ex.StackTrace);
-                MessageBox.Show("Flare crashed! Check the console for error details. Click 'Ok' to quit.");
+                MessageBox.Show("Xri crashed! Check the console for error details. Click 'Ok' to quit.");
             }
         }
     }
