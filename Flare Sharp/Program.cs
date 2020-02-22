@@ -49,11 +49,11 @@ namespace Flare_Sharp
                 Thread uiApp = new Thread(() => { OverlayHost ui = new OverlayHost(); Application.Run(ui); });
                 if (fm.readConfig())
                 {
-                    Console.WriteLine("Loaded config!");
+                    Console.WriteLine("Loaded configurations!");
                 }
                 else
                 {
-                    Console.WriteLine("Could not load config!");
+                    Console.WriteLine("Could not load configurations!");
                 }
                 uiApp.Start();
                 while (true)
