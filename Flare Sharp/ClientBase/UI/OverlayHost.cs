@@ -80,7 +80,7 @@ namespace Flare_Sharp.UI
 
         public SolidBrush primary = new SolidBrush(Color.FromArgb(255, 255, 255));
         public SolidBrush secondary = new SolidBrush(Color.FromArgb(25, 25, 25));
-        public SolidBrush tertiary = new SolidBrush(Color.FromArgb(255, 0, 100));
+        public SolidBrush tertiary = new SolidBrush(Color.FromArgb(0, 145, 255));
         public SolidBrush quaternary = new SolidBrush(Color.FromArgb(255, 0, 255));
         public SolidBrush rainbow = new SolidBrush(Color.FromArgb(255, 255, 255));
 
